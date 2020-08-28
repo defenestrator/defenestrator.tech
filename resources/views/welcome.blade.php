@@ -438,11 +438,10 @@
                                 <h2>Development</h2>
                                 <ul>
                                     <li>Web systems generalist</li>
-                                    <li>Fast is good. Small is fast. Small is good. </li>
-                                    <li>Sufficiency-driven engineering</li>
-                                    <li>Feature teams are the best</li>
-                                    <li>Compliance and auditing experience</li>
-                                    <li>GDPR, Privacy, i18n and a11y</li>
+                                    <li>Fast is good</li>
+                                    <li>Small is fast</li>
+                                    <li>Small is good</li>
+                                    <li>Cross-disciplinary teams are best</li>
                                 </ul>
                             </div>
                         </div>
@@ -471,13 +470,10 @@
                             <div class="operationsServices">
                                 <h2>Operations</h2>
                                 <ul>
-                                    <li>Version Control Systems</li>
-                                    <li>Developer Support Tooling</li>
                                     <li>Cloud Native Infrastructure</li>
-                                    <li>Value Stream Mapping</li>
-                                    <li>Constraint Mitigation</li>
                                     <li>Continuous Integration and Delivery</li>
-                                    <li>Integrated Security Practices</li>
+                                    <li>Sufficiency-driven engineering</li>
+                                    <li>Integrated security practices</li>
                                 </ul>
                             </div>
                         </div>
@@ -506,10 +502,10 @@
                             <div class="continuityServices">
                                 <h2>Service Continuity</h2>
                                 <ul>
-                                    <li>Outages happen; Practice recovery regularly</li>
-                                    <li>Take a pragmatic approach to service delivery management</li>
-                                    <li>Foster organizational security culture and training</li>
-                                    <li>Learn from mistakes without blame or shame</li>
+                                    <li>A pragmatic approach to service delivery management</li>
+                                    <li>Organizational security culture maintenance</li>
+                                    <li>Compliance and auditing</li>
+                                    <li>GDPR, Privacy, i18n and a11y</li>
                                 </ul>
                             </div>
                         </div>
@@ -541,6 +537,7 @@
                                         <li>Monitoring and logging are essential</li>
                                         <li>Mistakes, failures and the unknown can be less costly</li>
                                         <li>Act on feedback early and often</li>
+                                        <li>Learn from mistakes without blame or shame</li>
                                     </ul>
                                 </div>
                             </div>
@@ -591,10 +588,10 @@
                     <div class="i-can-help">Jeremy Jacob Anderson</div>
                     <div><h3 style="color:white;">is measurably useful<h3></div>
                 <div class="skills">
-                    <div class="skill"><a href="https://www.linkedin.com/in/jeremyjanderson/">LinkedIn</a></div>
-                    <div class="skill"><a href="https://stackoverflow.com/users/1031892/jeremy-boise?tab=profile">Stack Overflow</a></div>
-                    <div class="skill"><a href="https://github.com/defenestrator">Github</a></div>
-                    <div class="skill"><a href="https://stackoverflow.com/cv/jeremy-boise">C.V.</a></div>
+                    <div class="skill"><a target="_blank" href="https://www.linkedin.com/in/jeremyjanderson/">LinkedIn</a></div>
+                    <div class="skill"><a target="_blank" href="https://stackoverflow.com/users/1031892/jeremy-boise?tab=profile">Stack Overflow</a></div>
+                    <div class="skill"><a target="_blank" href="https://github.com/defenestrator">Github</a></div>
+                    <div class="skill"><a target="_blank" href="https://stackoverflow.com/cv/jeremy-boise">C.V.</a></div>
                 </div>
                     @if ($errors->count() >= 1)
                         <div class="errors">
@@ -619,7 +616,7 @@
                         </div>
                         <div class="form-group">
                             <textarea name="message" placeholder="message"
-                            class="input email message"required>
+                            class="input email message" rows="6" required>
                                 {{ old('message') }}
                             </textarea>
                     </div>
