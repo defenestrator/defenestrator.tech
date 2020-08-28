@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
         <title>Feel Good Software Delivery</title>
         <style>
             html, body {
                 color: #B8AA8E;
-                font-family: 'Raleway' sans-serif;
+                font-family: 'Open Sans' sans-serif;
                 font-display:fallback;
                 font-size:1.2333rem;
                 font-weight: 300;
@@ -64,7 +65,7 @@
             }
 
             .copyright {
-                font-family:"Lobster", sans-serif
+                font-family:"Lobster Two", serif
             }
 
             .footer-links {
@@ -106,7 +107,7 @@
 
             .i-can-help {
                 color: #F5F5F5;
-                font-family:"Lobster", sans-serif;
+                font-family:"Lobster Two", serif;
                 font-size:2em;
                 padding:1em;
             }
@@ -198,7 +199,7 @@
             .change .square-content,
             .help .square-content {
                 color: #ffffff;
-                font-family:"Raleway", sans-serif;
+                font-family:"Open Sans", sans-serif;
                 font-weight: 600;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -355,7 +356,7 @@
             }
             .small {
                 font-size:0.7em;
-                font-family: "Raleway", sans-serif;
+                font-family: "Open Sans", sans-serif;
             }
             .copyright
             {
@@ -365,7 +366,7 @@
 
             .skills
             {
-                margin:2em;
+                margin:1em;
                 display:inline-flexbox;
             }
 
@@ -412,7 +413,6 @@
                     @endif
                 </div>
                 <div class="offerings">
-                    <!-- 1st row of service offerings grid -->
                     <div class="square bg make" id="make">
                         <div class="square-content">
                             <div class="table">
@@ -642,12 +642,6 @@
             </div>
         </div>
     <script>
-
-        link=document.createElement('link');
-        link.href='https://fonts.googleapis.com/css?family=Lobster|Raleway:300,600';
-        link.rel='stylesheet';
-        document.getElementsByTagName('head')[0].appendChild(link);
-
         const offerings = ["make", "deliver", "help", "learn", "change"];
 
         let toggleVisibility = function (targetName) {
