@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
         <link rel="icon" href="favicon.png">
-        <title>Defenestrator Media</title>
+        <title>I Make Web Things</title>
         <style>
             html, body {
                 color: #B8AA8E;
@@ -642,7 +642,7 @@
 
                     </div>
                     <div class="copyright">
-                        <p>&copy; Defenestrator Media </p>
+                        <p>&copy; defenestrator.tech</p>
                         <p class="small">{{ \Carbon\Carbon::now('America/Denver') }}</p>
                     </div>
 
