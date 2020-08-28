@@ -415,7 +415,7 @@
                             </ul>
                         </div>
                     @else
-                        <img src="images/copacetic-face-buff.jpg" />
+                        <img src="images/copacetic-face-buff.png" />
                     @endif
                 </div>
                 <div class="offerings">
