@@ -415,7 +415,7 @@
                             </ul>
                         </div>
                     @else
-                        <img src="images/copacetic-face-buff.png" />
+                        <img src="images/copacetic-face-buff.png" alt="Everything is copacetic" />
                     @endif
                 </div>
                 <div class="offerings">
