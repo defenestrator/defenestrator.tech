@@ -616,9 +616,7 @@
                         </div>
                         <div class="form-group">
                             <textarea name="message" placeholder="message"
-                            class="input email message" rows="6" required>
-                                {{ old('message') }}
-                            </textarea>
+                            class="input email message" required>{{ old('message') }}</textarea>
                     </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-big">HELLO</button>
