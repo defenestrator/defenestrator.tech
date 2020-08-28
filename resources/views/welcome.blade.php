@@ -593,6 +593,7 @@
                     <div class="skill"><a target="_blank" href="https://github.com/defenestrator">Github</a></div>
                     <div class="skill"><a target="_blank" href="https://stackoverflow.com/cv/jeremy-boise">C.V.</a></div>
                 </div>
+                <div>
                     @if ($errors->count() >= 1)
                         <div class="errors">
                             @foreach($errors->all() as $error)
@@ -603,7 +604,7 @@
                         </div>
                     @else
                     @endif
-                    <form method="POST" action="{{ route('contact-form') }}">
+                    <form style="padding-bottom:4em;" method="POST" action="{{ route('contact-form') }}">
                         {{ csrf_field() }}
                         <div class="form-group width-auto">
                             <input name="email"
@@ -623,6 +624,8 @@
                         </div>
 
                     </form>
+                </div>
+
                 </div>
                 <hr>
                 <div class="footer">
