@@ -262,20 +262,20 @@
             /*}*/
 
             .make {
-                background-image: url('/images/make.jpg');
+                background-image: url('/images/make.webp');
             }
             .deliver {
-                background-image: url('/images/deliver.jpg');
+                background-image: url('/images/deliver.webp');
             }
             .help {
-                background-image: url('/images/help.jpg');
+                background-image: url('/images/help.webp');
 
             }
             .learn {
-                background-image: url('/images/learn.jpg');
+                background-image: url('/images/learn.webp');
             }
             .change {
-                background-image: url('/images/change.jpg');
+                background-image: url('/images/change.webp');
             }
 
             .offerings {
@@ -310,27 +310,27 @@
                 background-size:cover;
             }
             #makeModal .modal-content {
-                background-image: url('/images/make.jpg');
+                background-image: url('/images/make.webp');
                 background-position:top left;
             }
             #deliverModal .modal-content {
                 background-position:center center;
-                background-image: url('/images/deliver.jpg');
+                background-image: url('/images/deliver.webp');
             }
             #helpModal .modal-content  {
-                background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/help.jpg');
+                background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/help.webp');
                 background-position:bottom center;
                 background-repeat:no-repeat;
                 background-size:cover;
             }
             #learnModal .modal-content {
-                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/learn.jpg');
+                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/learn.webp');
                 background-position:top center;
                 background-repeat:no-repeat;
                 background-size:cover;
             }
             #changeModal .modal-content {
-                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/change.jpg');
+                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/change.webp');
                 background-position:center center;
                 background-repeat:no-repeat;
                 background-size:cover;
@@ -410,7 +410,7 @@
                             </ul>
                         </div>
                     @else
-                        <img src="images/copacetic-face-buff.png" />
+                        <img src="images/copacetic-face-buff.webp" />
                     @endif
                 </div>
                 <div class="offerings">
