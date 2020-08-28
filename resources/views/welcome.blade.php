@@ -579,9 +579,9 @@
                     <div><h3 style="color:white;">is measurably helpful<h3></div>
                 <div class="skills">
                     <div class="skill"><a href="https://linkedin.com/jeremyjanderson">LinkedIn</a></div>
-                    <div class="skill"><a href="https://stackoverflow.com/users/1031892/jeremy-anderson?tab=profile">Stack Overflow</a></div>
+                    <div class="skill"><a href="https://stackoverflow.com/users/1031892/jeremy-boise?tab=profile">Stack Overflow</a></div>
                     <div class="skill"><a href="https://github.com/defenestrator">Github</a></div>
-                    <div class="skill"><a href="https://stackoverflow.com/cv/jeremy-anderson">C.V.</a></div>
+                    <div class="skill"><a href="https://stackoverflow.com/cv/jeremy-boise">C.V.</a></div>
                 </div>
                     @if ($errors->count() >= 1)
                         <div class="errors">
