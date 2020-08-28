@@ -8,7 +8,7 @@
         <style>
             html, body {
                 color: #B8AA8E;
-                font-family: 'Cousine', 'Raleway' sans-serif;
+                font-family: 'Raleway' sans-serif;
                 font-display:fallback;
                 font-size:1.2333rem;
                 font-weight: 300;
@@ -633,7 +633,7 @@
     <script>
 
         link=document.createElement('link');
-        link.href='https://fonts.googleapis.com/css?family=Lobster|Cousine:300,600';
+        link.href='https://fonts.googleapis.com/css?family=Lobster|Raleway:300,600';
         link.rel='stylesheet';
         document.getElementsByTagName('head')[0].appendChild(link);
 
