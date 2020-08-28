@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
-        <title>Feel Good Software Delivery</title>
+        <title>Defenestrator Media</title>
         <style>
             html, body {
                 color: #B8AA8E;
-                font-family: 'Open Sans' sans-serif;
+                font-family: 'Open Sans', sans-serif;
                 font-display:fallback;
                 font-size:1.2333rem;
                 font-weight: 300;
@@ -65,7 +65,7 @@
             }
 
             .copyright {
-                font-family:"Lobster Two", serif
+                font-family: 'Lobster Two', cursive;
             }
 
             .footer-links {
@@ -107,7 +107,7 @@
 
             .i-can-help {
                 color: #F5F5F5;
-                font-family:"Lobster Two", serif;
+                font-family: 'Lobster Two', cursive;
                 font-size:2em;
                 padding:1em;
             }
@@ -199,7 +199,7 @@
             .change .square-content,
             .help .square-content {
                 color: #ffffff;
-                font-family:"Open Sans", sans-serif;
+                font-family: 'Open Sans', sans-serif;
                 font-weight: 600;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -356,13 +356,14 @@
             }
             .small {
                 font-size:0.7em;
-                font-family: "Open Sans", sans-serif;
+                font-family: 'Open Sans', sans-serif;
             }
             .copyright
             {
                 float:left;
                 padding:0 0 1em 1em;
             }
+
 
             .skills
             {
@@ -478,7 +479,7 @@
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell">
-                                    <p>Software that feels snuggly</p>
+                                    <p>Warm fuzzies</p>
                                 </div>
                             </div>
                         </div>
@@ -510,7 +511,7 @@
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
-                                    <p>Security, quality <em>and</em> velocity</p>
+                                    <p>Quality and velocity</p>
                                 </div>
                             </div>
                         </div>
