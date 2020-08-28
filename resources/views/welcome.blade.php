@@ -123,6 +123,7 @@
                 border: 1px solid #ffff00;
                 font-size:1.0rem;
                 font-weight:600;
+                color:black;
             }
 
             .message-list-item { text-align: left; list-style-type: none;}
@@ -381,9 +382,11 @@
                 <div class="top-wrapper">
                     @if ($errors->count() >= 1)
                         <div class="errors">
-                            <ul>
-                                <li style="font-weight:600; color: black;" class="message-list-item">Scroll down&hellip;something is borked.</li>
-                            </ul>
+                            @foreach($errors->all() as $error)
+                                <ul>
+                                    <li class="message-list-item">{{ $error }}</li>
+                                </ul>
+                            @endforeach
                         </div>
                     @elseif (session('success'))
                         <div class="success">
@@ -589,7 +592,7 @@
                         <div class="form-group">
                             <input name="email"
                                    class="input email address"
-                                   type="text"
+                                   type="email"
                                    placeholder="your email"
                                    value="{{ old('email') }}"
                                    required
