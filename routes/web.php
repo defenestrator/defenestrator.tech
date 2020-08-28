@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::middleware('cache.headers:public;max_age=31560000;etag')->group(function () {
+    Route::get('/', 'Controller@index')->name('welcome');
+});
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('welcome');
 Route::post('/contact-form', "ContactFormController@create")->name('contact-form');
