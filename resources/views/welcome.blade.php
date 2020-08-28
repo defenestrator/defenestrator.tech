@@ -369,7 +369,7 @@
             .skills
             {
                 margin:1em auto;
-                display:inline-flexbox;
+                display:flex;
             }
 
             .skill
