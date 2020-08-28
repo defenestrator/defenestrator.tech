@@ -92,10 +92,18 @@
                 color:#f9f9c0;
                 clear:both;
             }
-            .email-capture a{
+            .email-capture a, .email-capture a:link, .email-capture a:visited{
                 color:#f9f9c0;
                 text-decoration: none;
+                transition: all 250ms;
             }
+
+            .email-capture a:hover, .email-capture a:active{
+                color:#fff;
+                text-decoration: none;
+                transition: all 250ms;
+            }
+
             .i-can-help {
                 color: #F5F5F5;
                 font-family:"Lobster", sans-serif;
@@ -152,8 +160,6 @@
                 -webkit-transition: all .2s;
                 transition-timing-function: linear;
             }
-
-            .g-recaptcha {display: inline-block;}
 
             .square {
                 float:left;
