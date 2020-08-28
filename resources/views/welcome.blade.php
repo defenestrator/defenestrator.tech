@@ -526,7 +526,7 @@
                                     <h2>Reporting</h2>
                                     <ul>
                                         <li>Monitoring and logging are essential</li>
-                                        <li>Maistakes, failures and the unknown can be less costly.</li>
+                                        <li>Maistakes, failures and the unknown can be less costly</li>
                                         <li>Act on feedback early and often</li>
                                     </ul>
                                 </div>
