@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon.png">
         <title>Defenestrator Media</title>
         <style>
             html, body {
@@ -54,7 +55,7 @@
                 user-select: none;
                 background-image: none;
                 border: 1px solid transparent;
-                border-radius: 4px;
+                border-radius: 0.25rem;
             }
 
             .footer {
@@ -86,10 +87,11 @@
             .form-group { padding-top:.4em; }
 
             .email-capture {
-                background:rgb(0,0,0);
+                background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.8));
                 padding : 1rem;
                 color:#f9f9c0;
                 clear:both;
+
             }
             .email-capture a, .email-capture a:link, .email-capture a:visited{
                 color:#f9f9c0;
@@ -138,7 +140,7 @@
             .success {background: #acf99f; border: 1px solid #2e5d2e; }
 
             .btn-big {
-                width: 320px;
+                width: 20rem;
                 border-color: #99ccfa;
                 background-color: #f9f9f9;
                 color: rgba(48, 54, 55, 0.8);
@@ -148,13 +150,13 @@
                 font-weight:600;
                 text-transform: uppercase;
                 font-size:1.2rem;
-                letter-spacing:.5rem;
+                letter-spacing:.25rem;
                 padding:0;
             }
             .btn-big:hover, .btn-big:focus {
                 border-color: #66c5ff;
                 background-color: #f0f0f0;
-                color: rgba(48, 54, 55, 0.9);
+                color: rgba(48, 54, 55, 1);
                 transition: all .25s;
                 -webkit-transition: all .2s;
                 transition-timing-function: linear;
@@ -415,11 +417,11 @@
                             </ul>
                         </div>
                     @else
-                        <img src="images/copacetic-face-buff.png" alt="Everything is copacetic" />
+                        <img src="images/copacetic-face-buff.png" alt="Everything is copacetic" title="Everything is copacetic" />
                     @endif
                 </div>
                 <div class="offerings">
-                    <div class="square bg make" id="make">
+                    <div class="square bg make" id="make" title="make">
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
@@ -454,7 +456,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="square bg deliver" id="deliver">
+                    <div class="square bg deliver" id="deliver"  title="deliver">
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
@@ -489,7 +491,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="square bg help" id="help">
+                    <div class="square bg help" id="help" title="help">
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
@@ -521,7 +523,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="square bg learn" id="learn">
+                    <div class="square bg learn" id="learn" title="learn">
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
@@ -552,7 +554,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="square bg change" id="change">
+                    <div class="square bg change" id="change" title="make">
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
@@ -577,13 +579,13 @@
                     </div>
                 </div>
                 <div class="skills">
-                    <div class="skill"><img src="/images/tech/javascript_1.svg" alt="JavaScript"></div>
-                    <div class="skill"><img src="/images/tech/mysql.svg" alt="MySQL"></div>
-                    <div class="skill"><img src="/images/tech/php.svg" alt="PHP"></div>
-                    <div class="skill"><img src="/images/tech/ruby.svg" alt="Ruby"></div>
-                    <div class="skill"><img src="/images/tech/aws.svg" alt="AWS"></div>
-                    <div class="skill"><img src="/images/tech/redis.svg" alt="Redis"></div>
-                    <div class="skill"><img src="/images/tech/laravel.svg" alt="Laravel"></div>
+                    <div class="skill"><img src="/images/tech/javascript_1.svg" alt="JavaScript" title="JavaScript"></div>
+                    <div class="skill"><img src="/images/tech/mysql.svg" alt="MySQL" title="MySQL"></div>
+                    <div class="skill"><img src="/images/tech/php.svg" alt="PHP" title="PHP"></div>
+                    <div class="skill"><img src="/images/tech/ruby.svg" alt="Ruby" title="Ruby"></div>
+                    <div class="skill"><img src="/images/tech/aws.svg" alt="AWS" title="AWS"></div>
+                    <div class="skill"><img src="/images/tech/redis.svg" alt="Redis" title="Redis"></div>
+                    <div class="skill"><img src="/images/tech/laravel.svg" alt="Laravel" title="Laravel"></div>
                 </div>
                 <div class="email-capture">
                     <div class="i-can-help">Jeremy Jacob Anderson</div>
@@ -606,7 +608,7 @@
                     @endif
                     <form method="POST" action="{{ route('contact-form') }}">
                         {{ csrf_field() }}
-                        <div class="form-group">
+                        <div class="form-group width-auto">
                             <input name="email"
                                    class="input email address"
                                    type="email"
@@ -616,7 +618,10 @@
                             >
                         </div>
                         <div class="form-group">
-                            <textarea name="message" placeholder="message" class="input email message" rows="8" required>{{ old('message') }}</textarea>
+                            <textarea name="message" placeholder="message"
+                            class="input email message"required>
+                                {{ old('message') }}
+                            </textarea>
                     </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-big">HELLO</button>
