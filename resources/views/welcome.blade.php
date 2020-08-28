@@ -583,7 +583,7 @@
                     <div class="i-can-help">Jeremy Jacob Anderson</div>
                     <div><h3 style="color:white;">is measurably useful<h3></div>
                 <div class="skills">
-                    <div class="skill"><a href="https://linkedin.com/jeremyjanderson">LinkedIn</a></div>
+                    <div class="skill"><a href="https://www.linkedin.com/in/jeremyjanderson/">LinkedIn</a></div>
                     <div class="skill"><a href="https://stackoverflow.com/users/1031892/jeremy-boise?tab=profile">Stack Overflow</a></div>
                     <div class="skill"><a href="https://github.com/defenestrator">Github</a></div>
                     <div class="skill"><a href="https://stackoverflow.com/cv/jeremy-boise">C.V.</a></div>
