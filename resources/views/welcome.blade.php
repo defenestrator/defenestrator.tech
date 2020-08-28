@@ -10,8 +10,6 @@
             html, body {
                 color: #B8AA8E;
                 font-family: 'Open Sans', sans-serif;
-                font-display:fallback;
-                font-size:1.2333rem;
                 font-weight: 300;
                 margin: 0;
                 background: #99ccfa;
@@ -281,6 +279,7 @@
             .offerings {
                 color: #fff;
                 text-align:center;
+                padding-bottom:2em;
             }
             /* Modal */
             .modal {
@@ -367,13 +366,13 @@
 
             .skills
             {
-                margin:1em;
+                margin:1em auto;
                 display:inline-flexbox;
             }
 
             .skill
             {
-                margin:1em;
+                margin:0.5em 1em;
                 position:relative;
                 display:inline-flex;
             }
@@ -386,6 +385,10 @@
             {
                 opacity:0.8;
                 transition: all 250ms;
+            }
+            form input, textarea
+            {
+                font-family:'Open Sans', sans-serif;
             }
         </style>
     </head>
