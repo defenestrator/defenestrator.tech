@@ -372,13 +372,18 @@
             .skill
             {
                 margin:1em;
-
                 position:relative;
                 display:inline-flex;
             }
             .skill img
             {
                 min-width:60px;
+                transition: all 250ms;
+            }
+            .skill img:hover
+            {
+                opacity:0.8;
+                transition: all 250ms;
             }
         </style>
     </head>
