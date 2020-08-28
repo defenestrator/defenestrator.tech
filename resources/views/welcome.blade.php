@@ -337,7 +337,7 @@
             .modal-content li{
                 list-style-type: square;
                 margin: 1em auto;
-                text-align:justify;
+                text-align:left;
             }
             /* Modal Close Button */
             .close {
