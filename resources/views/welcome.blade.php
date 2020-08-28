@@ -503,7 +503,7 @@
                                 <h2>Service Continuity</h2>
                                 <ul>
                                     <li>A pragmatic approach to service delivery management</li>
-                                    <li>Organizational security culture maintenance</li>
+                                    <li>Security culture maintenance</li>
                                     <li>Compliance and auditing</li>
                                     <li>GDPR, Privacy, i18n and a11y</li>
                                 </ul>
