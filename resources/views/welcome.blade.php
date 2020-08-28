@@ -260,20 +260,20 @@
             /*}*/
 
             .make {
-                background-image: url('/images/make.webp');
+                background-image: url('/images/make.jpg');
             }
             .deliver {
-                background-image: url('/images/deliver.webp');
+                background-image: url('/images/deliver.jpg');
             }
             .help {
-                background-image: url('/images/help.webp');
+                background-image: url('/images/help.jpg');
 
             }
             .learn {
-                background-image: url('/images/learn.webp');
+                background-image: url('/images/learn.jpg');
             }
             .change {
-                background-image: url('/images/change.webp');
+                background-image: url('/images/change.jpg');
             }
 
             .offerings {
@@ -309,27 +309,27 @@
                 background-size:cover;
             }
             #makeModal .modal-content {
-                background-image: url('/images/make.webp');
+                background-image: url('/images/make.jpg');
                 background-position:top left;
             }
             #deliverModal .modal-content {
                 background-position:center center;
-                background-image: url('/images/deliver.webp');
+                background-image: url('/images/deliver.jpg');
             }
             #helpModal .modal-content  {
-                background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/help.webp');
+                background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/help.jpg');
                 background-position:bottom center;
                 background-repeat:no-repeat;
                 background-size:cover;
             }
             #learnModal .modal-content {
-                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/learn.webp');
+                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/learn.jpg');
                 background-position:top center;
                 background-repeat:no-repeat;
                 background-size:cover;
             }
             #changeModal .modal-content {
-                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/change.webp');
+                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/change.jpg');
                 background-position:center center;
                 background-repeat:no-repeat;
                 background-size:cover;
@@ -381,11 +381,13 @@
                 min-width:60px;
                 transition: all 250ms;
             }
+
             .skill img:hover
             {
                 opacity:0.8;
                 transition: all 250ms;
             }
+
             form input, textarea
             {
                 font-family:'Open Sans', sans-serif;
@@ -413,7 +415,7 @@
                             </ul>
                         </div>
                     @else
-                        <img src="images/copacetic-face-buff.webp" />
+                        <img src="images/copacetic-face-buff.jpg" />
                     @endif
                 </div>
                 <div class="offerings">
