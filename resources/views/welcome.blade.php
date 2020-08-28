@@ -10,7 +10,7 @@
                 color: #B8AA8E;
                 font-family: 'Cousine', 'Raleway' sans-serif;
                 font-display:fallback;
-                font-size:1.4333rem;
+                font-size:1.2333rem;
                 font-weight: 300;
                 margin: 0;
                 background: #99ccfa;
@@ -195,7 +195,7 @@
                 font-weight: 600;
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: 1.2rem;
+                font-size: 1.4rem;
                 transition: all .2s;
                 -webkit-transition: all .2s;
                 transition-timing-function: linear;
