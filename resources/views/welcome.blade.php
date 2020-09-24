@@ -450,7 +450,7 @@
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell">
-                                    <p>There is no cake</p>
+                                    <p>Delightful Software</p>
                                 </div>
                             </div>
                         </div>
@@ -482,7 +482,7 @@
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell">
-                                    <p>Warm fuzzies</p>
+                                    <p>Ship early and often</p>
                                 </div>
                             </div>
                         </div>
@@ -514,7 +514,7 @@
                         <div class="square-content">
                             <div class="table">
                                 <div class="table-cell square-links">
-                                    <p>Quality and velocity</p>
+                                    <p>Get real</p>
                                 </div>
                             </div>
                         </div>
